@@ -1,0 +1,19 @@
+{
+    "name": "jeeklin/aes",
+    "description": "aes encrypt and decrypt",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jeeklin\\AES\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeeklin"
+        }
+    ],
+    "require": {
+        "ext-openssl": "*"
+    }
+}
